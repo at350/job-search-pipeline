@@ -1,0 +1,25 @@
+# Private data — never commit these
+documents/private/
+documents/cv/approved-bullets.md
+
+# Generated output files (tailored per-company)
+cv/*.docx
+cv/*.pdf
+cover_letters/*.docx
+cover_letters/*.pdf
+
+# Digest files (personal, no need to share)
+opportunities/digest-*.md
+
+# Node modules if you run the docx build scripts locally
+node_modules/
+package-lock.json
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
